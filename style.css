@@ -72,29 +72,31 @@ h2{
 }
 
 input{
-    width: 300px;
-    border-radius: 30px;
-    height: 40px;
+    width: 85%;
+    height: 50px;
+    border: transparent;
     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    /* border: 0px; */
+    
 }
 
 .search1{
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 40%;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
 }
 
 #one{
-    position: relative;
-    left: -290px;
+    padding: 12px;
+    font-size: 20px;
 }
 
 #two{
-    position: relative;
-    left: -40px;
+    padding: 12px;
+    font-size: 20px;
 }
 
 input:focus{
