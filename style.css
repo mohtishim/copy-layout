@@ -70,3 +70,33 @@ h2{
     line-height: 50px;
     background-color: rgb(210, 184, 211);
 }
+
+input{
+    width: 300px;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 0px; */
+}
+
+.search1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#one{
+    position: relative;
+    left: -290px;
+}
+
+#two{
+    position: relative;
+    left: -40px;
+}
+
+input:focus{
+    outline: 0px;
+}
